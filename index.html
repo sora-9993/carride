@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <header>
+    <div class="tabbox">
+      <input class="box" type="radio" name="tabset" id="tabcheck1" checked><label for="tabcheck1" class="tab">イベント設定</label>
+      <input class="box" type="radio" name="tabset" id="tabcheck2"><label for="tabcheck2" class="tab">帰り</label>
+
+      <div class="tabcontent" id="tabcontent1">
+        <p>タイトル（50文字）</p>
+        <textarea class="title-a" placeholder="朝霧キャンプ場で夜空を見てBBQ!"></textarea>
+        <p>サブタイトル（100文字）</p>
+        <textarea class="title-b" placeholder="夏のアウトドア！8/10日(土)~11((日)に
+        １泊２日で行きましょう"></textarea>
+
+        <div class="detail">
+          <div class="detail-names">
+            <label class="detail-name">集合日時</label>
+              <input type="datetime-local" class="detail-input">
+            <img class="detail-img" src="../車相乗りサイト/icon_calender.svg">
+          </div>
+          <div class="detail-names">
+            <label class="detail-name">集合場所</label>
+            <input class="detail-input" placeholder="新宿駅西口ロータリー"></input>
+            <a href="https://www.google.com/maps"><img class="detail-img" src="../車相乗りサイト/icon_place.svg"></a>
+          </div>
+          <div class="detail-names">
+            <label class="detail-name">募集人数</label>
+            <select name="example" class="detail-input">
+              <option value="選択肢1">1人</option>
+              <option value="選択肢2">2人</option>
+              <option value="選択肢3">3人</option>
+            </select>
+            <img class="detail-img" src="../車相乗りサイト/icon_people.svg">
+          </div>
+          <div class="detail-names">
+            <label class="detail-name">募集台数</label>
+            <select name="example" class="detail-input">
+              <option value="選択肢1">1台</option>
+              <option value="選択肢2">2台</option>
+              <option value="選択肢3">3台</option>
+            </select>
+            <img class="detail-img" src="../車相乗りサイト/icon_car_wagon_orange.svg">
+          </div>
+          <div class="detail-names">
+            <label class="detail-name">場所の数</label>
+            <select name="example" class="detail-input">
+              <option value="選択肢1">1箇所</option>
+              <option value="選択肢2">2箇所</option>
+              <option value="選択肢3">3箇所</option>
+            </select>
+            <img class="detail-img" src="../車相乗りサイト/icon_place.svg">
+          </div>
+        </div>
+
+        <div class="detail-car">
+          <label class="detail-namae">途中下車</label>
+          <select name="example" class="detail-input">
+            <option value="選択肢1">なし</option>
+            <option value="選択肢2">あり</option>
+          </select>
+          <img class="detail-img" src="../車相乗りサイト/icon_car_sedan_blue.svg">
+        </div>
+
+        <div class="detail-place">
+          <label class="detail-like">到着場所</label>
+          <input type="text" class="detail-input" name="text" placeholder="富士朝霧キャンプ場">
+          <img class="detail-img" src="../車相乗りサイト/icon_people_green.svg">
+        </div>
+        <div class="detail-time">
+          <label class="detail-like">到着日時</label>
+          <input type="text" class="detail-input" name="text">
+          <img class="detail-img" src="../車相乗りサイト/icon_calender_green.svg">
+        </div>
+
+        <div class="detail-picture">
+          <label class="detail-love1">写真</label>
+          <input type="text" class="detail-input" value="写真を選択する" >
+          <img class="detail-img" src="../車相乗りサイト/icon_camera.svg">
+        </div>
+
+        <div class="detail-things">
+          <label class="detail-love2">注意事項</label>
+          <input type="text" class="detail-input" name="text"  value="汎用テンプレート 1"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+          <input type="text" class="detail-input" name="text" value="汎用テンプレート 2"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+          <input type="text" class="detail-input" name="text" value="汎用テンプレート 3"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+          <input type="text" class="detail-input" name="text" value="さらに追加する"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+        </div">
+      </div>
+    </div>
+
+    <div class="tabcontent" id="tabcontent2">
+      <div class="detail">
+        <div class="detail-names">
+          <label class="detail-name">出発日時</label>
+            <input type="datetime-local" class="detail-input">
+          <img class="detail-img" src="../車相乗りサイト/icon_calender.svg">
+        </div>
+        <div class="detail-names">
+          <label class="detail-name">出発場所</label>
+          <input class="detail-input" placeholder="新宿駅西口ロータリー"></input>
+          <a href="https://www.google.com/maps"><img class="detail-img" src="../車相乗りサイト/icon_place.svg"></a>
+        </div>
+        <div class="detail-names">
+          <label class="detail-name">募集人数</label>
+          <select name="example" class="detail-input">
+            <option value="選択肢1">1人</option>
+            <option value="選択肢2">2人</option>
+            <option value="選択肢3">3人</option>
+          </select>
+          <img class="detail-img" src="../車相乗りサイト/icon_people.svg">
+        </div>
+        <div class="detail-names">
+          <label class="detail-name">募集台数</label>
+          <select name="example" class="detail-input">
+            <option value="選択肢1">1台</option>
+            <option value="選択肢2">2台</option>
+            <option value="選択肢3">3台</option>
+          </select>
+          <img class="detail-img" src="../車相乗りサイト/icon_car_wagon_orange.svg">
+        </div>
+      </div>
+  
+      <div class="detail-car">
+        <label class="detail-namae">途中下車</label>
+        <select name="example" class="detail-input">
+          <option value="選択肢1">なし</option>
+          <option value="選択肢2">あり</option>
+        </select>
+        <img class="detail-img" src="../車相乗りサイト/icon_car_sedan_blue.svg">
+      </div>
+  
+      <div class="detail-place">
+        <label class="detail-like">解散場所</label>
+        <input type="text" class="detail-input" name="text" placeholder="富士朝霧キャンプ場">
+        <img class="detail-img" src="../車相乗りサイト/icon_people_green.svg">
+      </div>
+      <div class="detail-time">
+        <label class="detail-like">到着日時</label>
+        <input type="text" class="detail-input" name="text">
+        <img class="detail-img" src="../車相乗りサイト/icon_calender_green.svg">
+      </div>
+  
+      <div class="detail-picture">
+        <label class="detail-love1">写真</label>
+        <input type="text" class="detail-input" value="写真を選択する" >
+        <img class="detail-img" src="../車相乗りサイト/icon_camera.svg">
+      </div>
+  
+      <div class="detail-things">
+        <label class="detail-love2">注意事項</label>
+        <input type="text" class="detail-input" name="text"  value="汎用テンプレート 1"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+        <input type="text" class="detail-input" name="text" value="汎用テンプレート 2"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+        <input type="text" class="detail-input" name="text" value="汎用テンプレート 3"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+        <input type="text" class="detail-input" name="text" value="さらに追加する"><img class="detail-img" src="../車相乗りサイト/icon_Speech.svg">
+      </div>
+    </div>
+    
+
+    <footer>
+      <div class="footer-item">
+        <input type="checkbox" name="check" required>
+        <label class="footer-p">募集前に<a class="border-underline4">利用規約</a>をご確認する</label>
+      </div>
+      <div class="footer-thing">
+        <label>
+          <input type="submit" class="footer-event" value="イベント募集する">
+        </label>
+      </div>
+    </footer>
+    
+  </header>
+
+</body>
