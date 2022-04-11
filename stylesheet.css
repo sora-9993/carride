@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0; 
+}
+
+body {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+
+header {
+   width: 500px;
+   height: 100vh;
+   display: grid;
+}
+
+.tab {
+    display: inline-block;    
+    width: 500px;
+    line-height: 50px;
+    padding: 0.75em 1em;   
+    font-weight: bold;              
+    color: black;
+    background-color:rgb(204, 245, 204);
+ }
+
+ .tab:hover {
+    color: green;                
+    background-color: #ccffcc;   
+    cursor: pointer;             
+ }
+
+ .tabbox:checked + .tab {
+    color: rgba(0, 0, 0, 0.141);                  
+    background-color: #ffffcc;   
+ }
+
+ .tabbox .box { display: none; }
+ 
+ #tabcheck1:checked ~ #tabcontent1 { display: block; }
+ #tabcheck2:checked ~ #tabcontent2 { display: block; }
+
+ input:checked + .tab {
+    z-index: 10;        
+    position: relative;  
+ }
+ 
+ .tabcontent {
+    margin-top: -1px;    
+    z-index: 0;          
+    position: relative;  
+    display: none;     
+    padding: 1em;            
+    background-color:rgb(204, 245, 204);
+    width: 500px;
+    height: 780px;
+    overflow: hidden;
+    align-items: center;
+    margin: 0 auto;
+ }
+
+ .tabcontent p {
+    font-weight: bold;
+ }
+
+ .tabbox {
+   border: 2px solid black;
+   place-content: center;
+ }
+
+ .title-a {
+    width: 100%;
+    border-radius: 10px;
+ }
+
+ .title-b {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+ }
+
+ .detail-name {
+    background-color: navajowhite;
+ }
+
+ .detail-namae {
+    background-color:lightblue;
+    margin-right: 5px;
+ }
+
+
+.detail-input {
+   width: 300px;
+   padding: 5px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+textarea {
+   margin-bottom: 10px;
+   width: 50%;
+   text-align: center;
+}
+
+.detail-picture {
+  margin-left: 15px;
+}
+
+.detail-like {
+   background-color:lightgreen;
+}
+
+.detail-love1 {
+   background-color:aliceblue;
+   margin-right: 20px;
+}
+
+.detail-things {
+   margin-left: 70px;
+}
+
+.detail-love2 {
+   background-color:aliceblue;
+   margin-right: 330px;
+   margin-left: -100px;
+}
+
+
+.detail-img {
+   display: flex;
+   flex-direction: column;
+   float: right;
+   width: 30px;
+   height: 30px;
+   margin-right: 20px;
+}
+
+ footer {
+    text-align: center;
+    margin-top: 10px;
+    height: 130px;
+ }
+
+ .border-underline4 {
+    border-bottom: 1px solid black;
+ }
+
+ .footer-event {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    background-color:rgba(245, 193, 7, 0.335);
+    border: none;
+    color:red;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ 
+
+ 
