@@ -161,6 +161,18 @@ textarea {
     font-weight: bold;
  }
 
+.footer-event:after {
+   content: "";
+   display: inline-block;
+   width: 30px;
+   height: 30px;
+   margin: -3px 0 0 5px;
+   background-image: url("../車相乗りサイト/icon_people.svg");
+   background-size: contain;
+   vertical-align: middle;
+ }
+
+
  
 
  
