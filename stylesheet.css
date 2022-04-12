@@ -18,11 +18,12 @@ header {
 }
 
 .tab {
-    display: inline-block;    
-    width: 500px;
-    line-height: 50px;
+    display: block;    
+    width: 250px;
+    float: left;
     padding: 0.75em 1em;   
-    font-weight: bold;              
+    font-weight: bold;
+    font-size: 25px;              
     color: black;
     background-color:rgb(204, 245, 204);
  }
