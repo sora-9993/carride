@@ -162,7 +162,7 @@ textarea {
     font-weight: bold;
  }
 
-.footer-event:after {
+ .footer-event:after {
    content: "";
    display: inline-block;
    width: 30px;
@@ -173,6 +173,9 @@ textarea {
    vertical-align: middle;
  }
 
+ 
+
+ 
 
  
 
